@@ -213,7 +213,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-left: 1px solid var(--header-color-border);
+    border-left: 1px solid #908e8e47 !important;
     height: 100%;
   }
   .menu-hamburger {
@@ -281,6 +281,7 @@
   .logo--white {
     display: flex;
   }
+
   .bar {
     background-color: var(--color-bg-primary);
   }
