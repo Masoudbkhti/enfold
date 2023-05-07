@@ -37,3 +37,24 @@
 //     }
 //   });
 // }
+
+const accordionHeaders = document.querySelectorAll(".list-header");
+const accordionContents = document.querySelectorAll(".list-content");
+
+function toggleAccordion() {
+  const accordion = this.parentElement;
+  const accordionContent = accordion.querySelector(".list-content");
+  accordionContent.classList.toggle("active");
+  this.classList.toggle("active");
+  if (accordionContent.style.display === "block") {
+    accordionContent.style.display = "none";
+    this.textContent = this.textContent.replace("-", "+");
+  } else {
+    accordionContent.style.display = "block";
+    this.textContent = this.textContent.replace("+", "-");
+  }
+}
+
+accordionHeaders.forEach((header) => {
+  header.addEventListener("click", toggleAccordion);
+});
