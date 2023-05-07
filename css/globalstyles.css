@@ -24,11 +24,15 @@
   --header-font-caption: 32px;
   --header-font-btn: 10px;
   --sidebar-font: 24px;
+  --main-color-black: #000000;
+  --main-color-white: #ffffff;
+
 }
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 html {
   scroll-behavior: smooth;
