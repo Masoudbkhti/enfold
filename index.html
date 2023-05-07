@@ -6,8 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Enfold</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
+    <div class="overlay">
+      <div class="overlay-content">
+        <div class="sidebar-items" onclick="closeMenu()">
+          <a class="sidebar-item link__LatestRelease" href="#LatestRelease"
+            >Latest Release</a
+          >
+          <a class="sidebar-item link__Biography" href="#Biography"
+            >Biography</a
+          >
+          <a class="sidebar-item link__Discography" href="#">Discography</a>
+          <a class="sidebar-item link__TourDates" href="#">Tour Dates</a>
+          <a class="sidebar-item link__Bookings" href="#">Bookings</a>
+          <a class="sidebar-item link__Newsletter" href="#">Newsletter</a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="section-DJENFOLD">
+        <div class="content-checkered">
+          <div class="header" id="mymenu">
+            <div class="logo-wrapper">
+              <img class="logo--black" src="./assets/images/logo.png" alt="" />
+              <img
+                class="logo--white"
+                src="./assets/images/logo-white.png"
+                alt=""
+              />
+            </div>
+            <div class="social-media">
+              <a
+                class="social-media__link social-media__link--facebook"
+                href="#"
+                ><i class="social-media__icon fab fa-facebook-f"></i
+              ></a>
+              <a
+                href="#"
+                class="social-media__link social-media__link--instagram"
+                ><i class="social-media__icon fab fa-instagram"></i
+              ></a>
+              <a
+                href="#"
+                class="social-media__link social-media__link--envelope"
+                ><i class="social-media__icon fas fa-envelope"></i
+              ></a>
+            </div>
+          </div>
+          <div class="DJENFOLD-content">
+            <p class="DJENFOLD__title">DJ ENFOLD</p>
+            <p class="DJENFOLD__caption">DJ Mag’s #1 DJ in the World</p>
+            <a class="DJENFOLD__btn" href="#LatestRelease">
+              Check the latest Single
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="section-LatestRelease" id="LatestRelease"></div>
+      <div class="section-Biography" id="Biography">
+        <div class="content-checkered"></div>
+      </div>
+    </div>
+    <div class="menu-hamburger" onclick="openSideBar()">
+      <div class="bar bar1"></div>
+      <div class="bar bar2"></div>
+      <div class="bar bar3"></div>
+    </div>
     <div class="tour-container">
       <div class="tour-dates">
         <div class="tour-dates__title">
