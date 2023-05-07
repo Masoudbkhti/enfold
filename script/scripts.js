@@ -80,11 +80,25 @@ function changeBackgroundImage() {
 changeBackgroundImage();
 
 //TOURDATES ACOORDION
-const acoordionTitle = document.querySelector(".tour-dates__acoordion");
-function openAcoordion() {
-  acoordionTitle.style.height = "200px";
+
+const accordionHeaders = document.querySelectorAll(".list-header");
+const accordionContents = document.querySelectorAll(".list-content");
+
+function toggleAccordion() {
+  const accordion = this.parentElement;
+  const accordionContent = accordion.querySelector(".list-content");
+  accordionContent.classList.toggle("active");
+  this.classList.toggle("active");
+  if (accordionContent.style.display === "block") {
+    accordionContent.style.display = "none";
+    this.textContent = this.textContent.replace("-", "+");
+  } else {
+    accordionContent.style.display = "block";
+    this.textContent = this.textContent.replace("+", "-");
+  }
 }
-function closeAcoordion() {
-  acoordionTitle.style.height = "auto";
-}
+
+accordionHeaders.forEach((header) => {
+  header.addEventListener("click", toggleAccordion);
+});
 
