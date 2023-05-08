@@ -1,4 +1,309 @@
 @import url(globalstyles.css);
+.container {
+  width: 100%;
+}
+.section-DJENFOLD {
+  width: 100%;
+  background-image: url(../assets/images/banner-band-wide.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  background-color: var(--color-theme-bg);
+  background-blend-mode: multiply;
+}
+.section-LatestRelease {
+  height: 400px;
+  background-color: var(--color-bg-secondary);
+}
+.section-Biography {
+  width: 100%;
+  background-image: url(../assets/images/banner-dj-wide.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  background-color: var(--color-theme-bg);
+  background-blend-mode: multiply;
+}
+.content-checkered {
+  background: url(../assets/images/diagonal-thin-light.png);
+  background-repeat: repeat;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.DJENFOLD-content {
+  padding: 0 24px;
+  margin-top: 140px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.DJENFOLD__title {
+  color: var(--color-color-primary);
+  font-family: var(--font-family-secondary);
+  font-size: var(--header-font-h1);
+  font-weight: 700;
+  padding-bottom: 12px;
+  cursor: context-menu;
+}
+.DJENFOLD__caption {
+  color: var(--color-color-primary);
+  font-family: var(--font-family-primary);
+  font-size: var(--header-font-caption);
+  padding-bottom: 28px;
+  cursor: context-menu;
+}
+.DJENFOLD__btn {
+  border: 1px solid;
+  font-weight: 600;
+  font-family: var(--font-family-primary);
+  font-size: var(--header-font-btn);
+  color: var(--color-color-primary);
+  border: 1px solid var(--color-color-primary);
+  padding: 12px 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.DJENFOLD__btn:hover {
+  color: #ffffffbc;
+  border: 1px solid #ffffffbc;
+}
+.header {
+  height: 80px;
+  width: 100%;
+  background-color: var(--color-bg-primary);
+  position: fixed;
+  top: 0;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-wrapper {
+  width: 250px;
+  display: flex;
+  align-items: center;
+}
+.logo--black,
+.logo--white {
+  width: 100%;
+}
+.logo--black {
+  display: flex;
+}
+.logo--white {
+  display: none;
+}
+.menu-hamburger {
+  position: fixed;
+  right: 40px;
+  top: 28px;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.bar {
+  border-radius: 5px;
+  width: 18px;
+  height: 2px;
+  margin-top: 4px;
+  transition: 0.4s linear;
+  background-color: var(--header-color-meta);
+}
+.social-media {
+  display: none;
+}
+.bar1.change {
+  transform: rotate(-140deg) translate(-2px, -4px);
+  background-color: var(--color-color-primary) !important;
+}
+.bar3.change {
+  transform: rotate(140deg) translate(-4px, 7px);
+  background-color: var(--color-color-primary) !important;
+}
+
+.overlay {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  z-index: 10;
+  display: none;
+  position: fixed;
+  top: 0;
+  overflow-y: scroll;
+}
+.overlay-content {
+  width: 100%;
+  padding-top: 120px;
+  height: 620px;
+  display: flex;
+  justify-content: center;
+}
+.sidebar-items {
+  width: 90%;
+  height: 280px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.sidebar-item {
+  font-size: var(--sidebar-font);
+  font-family: var(--font-family-secondary);
+  color: var(--color-color-primary);
+  text-transform: uppercase;
+  animation-name: animationLinkSidebar;
+  animation-timing-function: linear;
+}
+.link__LatestRelease {
+  animation-duration: 0.5s;
+}
+.link__Biography {
+  animation-duration: 0.7s;
+}
+.link__Discography {
+  animation-duration: 0.9s;
+}
+.link__TourDates {
+  animation-duration: 1s;
+}
+.link__Bookings {
+  animation-duration: 1.2s;
+}
+.link__Newsletter {
+  animation-duration: 1.4s;
+}
+
+@keyframes animationLinkSidebar {
+  0% {
+    opacity: 0;
+    translate: 0px 30px;
+  }
+  25% {
+    opacity: 0;
+    translate: 0px 24px;
+  }
+  50% {
+    opacity: 0;
+    translate: 0px 16px;
+  }
+  75% {
+    opacity: 0.6;
+    translate: 0px 8px;
+  }
+  100% {
+    opacity: 1;
+    translate: 0px 0px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .social-media {
+    padding-left: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 1px solid #908e8e47 !important;
+    height: 100%;
+  }
+  .menu-hamburger {
+    right: 180px;
+  }
+  .social-media__link {
+    color: var(--header-color-meta);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .social-media__icon {
+    font-size: 14px;
+  }
+  .social-media__link:hover {
+    color: var(--color-color-primary);
+  }
+  .social-media__link--facebook:hover {
+    background-color: rgb(55, 84, 180);
+  }
+  .social-media__link--instagram:hover {
+    background-color: rgb(177, 114, 82);
+  }
+  .social-media__link--envelope:hover {
+    background-color: rgb(106, 140, 61);
+  }
+}
+@media screen and (min-width: 768px) {
+  .menu-hamburger {
+    top: 34px;
+  }
+  .overlay-content {
+    padding-top: 180px;
+  }
+  .header {
+    padding: 0 20px;
+    height: 90px;
+  }
+  .logo-wrapper {
+    width: 300px;
+  }
+  .DJENFOLD-content {
+    margin-top: 80px;
+  }
+}
+@media screen and (min-width: 990px) {
+  .menu-hamburger {
+    top: 24px;
+  }
+  .header {
+    background-color: transparent;
+    height: 74px;
+    border-bottom: 1px solid var(--header-color-border);
+    transition: all 0.8s ease-in-out;
+  }
+  .logo-wrapper {
+    width: 200px;
+  }
+  .logo--black {
+    display: none;
+  }
+  .logo--white {
+    display: flex;
+  }
+
+  .bar {
+    background-color: var(--color-bg-primary);
+  }
+  .social-media__link {
+    color: var(--color-bg-primary);
+  }
+  .header.sticky {
+    background-color: var(--color-bg-primary);
+    position: fixed;
+    top: 0;
+    transition: all 0.8s ease-in-out;
+  }
+  .bars--sticky {
+    background-color: var(--header-color-meta) !important;
+  }
+  .social-media__link--sticky {
+    color: var(--header-color-meta) !important;
+  }
+  .social-media__link--sticky:hover {
+    color: var(--color-color-primary) !important;
+  }
+}
 .tour-container {
   background-image: url(../images/diagonal-thin-light.png);
   width: 100%;
@@ -62,3 +367,4 @@
 .list-content.active {
   height: fit-content;
 }
+
