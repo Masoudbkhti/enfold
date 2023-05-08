@@ -35,10 +35,6 @@
   color: var(--main-color-white);
   width: 100%;
 }
-.tour-dates__acoordion:hover {
-  color: #a5a1a6;
-  cursor: pointer;
-}
 .list-header {
   display: flex;
   align-items: center;
@@ -47,6 +43,10 @@
   margin-bottom: 5px;
   background-color: #000000;
   padding: 0 10px;
+}
+.list-header:hover {
+  color: #a5a1a6;
+  cursor: pointer;
 }
 .list-content {
   display: flex;
