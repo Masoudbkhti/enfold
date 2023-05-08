@@ -1,40 +1,5 @@
 //TOURDATES ACOORDION
 
-/*
-
-const accordionHeaders = document.querySelectorAll(".list-header");
-const accordionContents = document.querySelectorAll(".list-content");
-
-function toggleAccordion() {
-  const accordion = this.parentElement;
-  const accordionContent = accordion.querySelector(".list-content");
-  accordionContent.classList.toggle("active");
-  this.classList.toggle("active");
-  if (accordionContent.style.display === "block") {
-    accordionContent.style.display = "none";
-    this.textContent = this.textContent.replace("-", "+");
-  } else {
-    accordionContents.forEach((content) => {
-      if (content.classList.contains("active")) {
-        content.classList.remove("active");
-        content.style.display = "none";
-        content.previousElementSibling.classList.remove("active");
-        content.previousElementSibling.textContent =
-          content.previousElementSibling.textContent.replace("-", "+");
-      }
-    });
-
-    accordionContent.style.display = "block";
-    this.textContent = this.textContent.replace("+", "-");
-  }
-}
-
-accordionHeaders.forEach((header) => {
-  header.addEventListener("click", toggleAccordion);
-});
-
-*/
-
 const accordionHeaders = document.querySelectorAll(".list-header");
 const accordionContents = document.querySelectorAll(".list-content");
 
