@@ -38,6 +38,7 @@
 .list-header {
   display: flex;
   align-items: center;
+  gap: 5px;
   width: 100%;
   height: 50px;
   margin-bottom: 5px;
@@ -49,12 +50,15 @@
   cursor: pointer;
 }
 .list-content {
-  display: flex;
-  align-items: center;
   width: 100%;
-  margin-bottom: 5px;
-  background-color: #000000;
+  height: 0px;
   padding: 30px 20px;
   display: none;
+  margin-bottom: 5px;
+  background-color: #000000;
   overflow: hidden;
+  transition: 0.3s ease-in-out;
+}
+.list-content.active {
+  height: fit-content;
 }
