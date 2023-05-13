@@ -24,3 +24,63 @@
 .tour-dates__list {
   background-color: var(--main-color-black);
 }
+.bookings-background {
+  background-color: #2f1e3a;
+  width: 100vw;
+  min-height: 100px;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+.booking-container {
+  /* background-color: antiquewhite; */
+  margin: 0 auto;
+  width: 85%;
+  /* height: 500px; */
+  /* the height should be checked */
+}
+.booking-head {
+  margin: 0 auto;
+  padding-bottom: 60px;
+  font-size: 50px;
+  text-align: center;
+  color: var(--main-color-white);
+  /* font-size: 0.8em; */
+  font-weight: bold;
+  /* font-family: 'audiowide', Helvetica, Arial, sans-serif; */
+}
+.booking-sentenses {
+  margin-bottom: 20px;
+}
+.sentenses-head1 {
+  padding-bottom: 10px;
+  color: var(--main-color-white);
+}
+.sentenses-description1 {
+  margin: 0.85em 0;
+  color: var(--main-color-white);
+}
+.sentenses-description2 {
+  margin: 0.85em 0;
+  color: var(--main-color-white);
+}
+.sentenses-head2 {
+  margin-top: 50px;
+  padding-bottom: 10px;
+  color: var(--main-color-white);
+}
+.sentenses-description3 {
+  margin: 0.85em 0;
+  color: var(--main-color-white);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+input {
+  margin-bottom: 20px;
+  padding: 13px;
+}
+textarea {
+  padding: 13px;
+}
