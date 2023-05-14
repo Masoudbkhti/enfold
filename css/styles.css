@@ -113,3 +113,6 @@ textarea {
   background-color: var(--main-color-white);
   width: 100vw;
 }
+.subscribe__head{
+  text-align: center;
+}
