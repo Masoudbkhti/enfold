@@ -85,4 +85,6 @@ input {
 }
 textarea {
   padding: 13px;
+  background: transparent;
+  border: solid white 2px;
 }
