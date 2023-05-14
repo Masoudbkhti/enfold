@@ -102,3 +102,10 @@ textarea {
   color: var(--main-color-white);
   font-size: 1rem;
 }
+.booking__form-btn {
+  background-color: transparent;
+  border: solid white 2px;
+  padding: 16px 20px;
+  color: var(--main-color-white);
+  min-width: 142px;
+}
