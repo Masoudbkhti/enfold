@@ -80,6 +80,8 @@ form {
 input {
   margin-bottom: 20px;
   padding: 13px;
+  background: transparent;
+  border: solid white 2px;
 }
 textarea {
   padding: 13px;
