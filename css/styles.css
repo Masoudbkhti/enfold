@@ -77,13 +77,13 @@ form {
   flex-direction: column;
   margin-bottom: 20px;
 }
-input {
+.booking__form-input {
   margin-bottom: 20px;
   padding: 13px;
   background: transparent;
   border: solid white 2px;
 }
-.form__input {
+.booking__form-txtinput {
   margin-bottom: 20px;
   padding: 13px;
   background: transparent;
@@ -131,7 +131,7 @@ textarea {
   border: solid #e1e1e1 2px;
   padding: 13px;
 }
-.subscribe__form-btn{
+.subscribe__form-btn {
   /* width: 150px; */
   padding: 13px;
 }
