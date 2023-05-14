@@ -109,3 +109,7 @@ textarea {
   color: var(--main-color-white);
   min-width: 142px;
 }
+.subscribe-container{
+  background-color: var(--main-color-white);
+  width: 100vw;
+}
