@@ -96,6 +96,7 @@ textarea {
   padding: 13px;
   background: transparent;
   border: solid white 2px;
+  min-width: 50px;
 }
 ::placeholder {
   color: var(--main-color-white);
