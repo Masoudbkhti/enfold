@@ -150,3 +150,11 @@ textarea {
   background-color: #2F1E3A;
   padding: 20px 30px;
 }
+.footer__passages-top{
+  color: var(--main-color-white);
+  font-size: 0.8rem;
+}
+.footer__passages-bottom{
+  color: var(--main-color-white);
+  font-size: 0.8rem;
+}
