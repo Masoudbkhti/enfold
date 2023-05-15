@@ -108,6 +108,7 @@ textarea {
   padding: 16px 20px;
   color: var(--main-color-white);
   min-width: 142px;
+  cursor: pointer;
 }
 .subscribe-container {
   background-color: var(--main-color-white);
@@ -136,4 +137,5 @@ textarea {
 .subscribe__form-btn {
   width: 150px;
   padding: 13px;
+  cursor: pointer;
 }
