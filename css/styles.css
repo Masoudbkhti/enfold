@@ -135,8 +135,7 @@ textarea {
 }
 .subscribe__form-input::placeholder {
   color: #7d7d7d;
-  
-  
+  text-align: center;
 }
 .subscribe__form-btn {
   width: 100%;
