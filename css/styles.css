@@ -145,3 +145,8 @@ textarea {
   border: none;
   color: var(--main-color-white);
 }
+.footer{
+  width: 100vw;
+  background-color: #2F1E3A;
+  padding: 20px 30px;
+}
