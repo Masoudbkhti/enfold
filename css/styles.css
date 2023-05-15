@@ -113,19 +113,20 @@ textarea {
 .subscribe-container {
   background-color: var(--main-color-white);
   width: 100vw;
+  padding: 30px;
 }
 .subscribe__head {
   text-align: center;
 }
 .subscribe__form {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 5px;
 }
 .subscribe__form-input {
-  width: 150px;
+  width: 100%;
   padding: 13px;
 }
 .subscribe__form-input::placeholder {
@@ -135,7 +136,10 @@ textarea {
   
 }
 .subscribe__form-btn {
-  width: 150px;
+  width: 100%;
   padding: 13px;
   cursor: pointer;
+  background-color: #9B78B3;
+  border: none;
+  color: var(--main-color-white);
 }
