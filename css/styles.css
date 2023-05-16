@@ -119,6 +119,13 @@ textarea {
   text-align: center;
   padding-top: 40px;
   padding-bottom: 30px;
+  font-family: "Audiowide", 'cursive';
+  font-size: 3rem;
+  line-height: 1.1em;
+  text-transform: uppercase;
+}
+.subscribe__head-inner {
+  color: #9b78b3;
 }
 .subscribe__form {
   display: flex;
@@ -141,32 +148,34 @@ textarea {
   width: 100%;
   padding: 13px;
   cursor: pointer;
-  background-color: #9B78B3;
+  background-color: #9b78b3;
   border: none;
   color: var(--main-color-white);
 }
-.footer{
+.footer {
   width: 100vw;
-  background-color: #2F1E3A;
-  padding: 20px 30px;
+  background-color: #2f1e3a;
+  padding: 20px 40px;
 }
-.footer__passages-top{
+.footer__passages-top {
   color: var(--main-color-white);
   font-size: 0.8rem;
+  margin-bottom: 10px;
 }
-.footer__passages-bottom{
+.footer__passages-bottom {
   color: var(--main-color-white);
   font-size: 0.8rem;
+  margin-bottom: 5px;
 }
-.footer__iconcontainer{
-  width: 15px;
-  height: 15px;
+.footer__iconcontainer {
+  width: 30px;
+  height: 30px;
   display: flex;
   gap: 4px;
   justify-content: center;
   align-items: center;
 }
-.footer__icon{
+.footer__icon {
   width: 100%;
   color: white;
 }
