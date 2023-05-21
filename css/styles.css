@@ -213,3 +213,6 @@ margin-bottom: 20px;
   background-color: rgb(221, 245, 113);
   opacity: 0.8;
 }
+@media (max-width: 768px), (min-width: 480px) {
+  
+}
