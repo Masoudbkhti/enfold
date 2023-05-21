@@ -196,6 +196,20 @@ margin-bottom: 20px;
   align-items: center;
 }
 .footer__icon {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 5px;
+}
+.icon-style-1:hover{
+  background-color: rgb(113, 113, 245);
+  opacity: 0.8;
+}
+.icon-style-2:hover{
+  background-color: rgb(245, 122, 113);
+  opacity: 0.8;
+}
+.icon-style-3:hover{
+  background-color: rgb(221, 245, 113);
+  opacity: 0.8;
 }
