@@ -171,6 +171,7 @@ textarea {
   font-size: 0.8rem;
   margin-bottom: 10px;
   font-family: "Lato", sans-serif;
+  cursor: pointer;
 }
 .footer__bottom {
   display: flex;
@@ -180,19 +181,18 @@ textarea {
   font-size: 0.8rem;
   margin-bottom: 5px;
   font-family: "Lato", sans-serif;
+  cursor: pointer;
 }
 .new {
   margin-left: 15px;
 }
 .footer__iconcontainer {
-  width: 30px;
-  height: 30px;
   display: flex;
   gap: 4px;
   justify-content: center;
   align-items: center;
 }
 .footer__icon {
-  width: 100%;
-  color: white;
+  width: 30px;
+  height: 30px;
 }
