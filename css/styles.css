@@ -129,7 +129,7 @@ textarea {
   padding-top: 40px;
   padding-bottom: 30px;
   font-family: "Audiowide", "cursive";
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1.1em;
   text-transform: uppercase;
 }
@@ -165,6 +165,9 @@ textarea {
   width: 100vw;
   background-color: #2f1e3a;
   padding: 20px 40px;
+}
+.footer__passages{
+margin-bottom: 20px;
 }
 .footer__passages-top {
   color: var(--main-color-white);
