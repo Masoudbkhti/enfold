@@ -166,8 +166,8 @@ textarea {
   background-color: #2f1e3a;
   padding: 20px 40px;
 }
-.footer__passages{
-margin-bottom: 20px;
+.footer__passages {
+  margin-bottom: 20px;
 }
 .footer__passages-top {
   color: var(--main-color-white);
@@ -201,20 +201,25 @@ margin-bottom: 20px;
   border-radius: 50%;
   padding: 5px;
 }
-.icon-style-1:hover{
+.icon-style-1:hover {
   background-color: rgb(113, 113, 245);
   opacity: 0.8;
 }
-.icon-style-2:hover{
+.icon-style-2:hover {
   background-color: rgb(245, 122, 113);
   opacity: 0.8;
 }
-.icon-style-3:hover{
+.icon-style-3:hover {
   background-color: rgb(221, 245, 113);
   opacity: 0.8;
 }
 @media (max-width: 768px), (min-width: 480px) {
-  
+  .booking__form-txtinput {
+    margin-bottom: 20px;
+  }
+  .booking__form-input {
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 990px), (min-width: 768px) {
   
