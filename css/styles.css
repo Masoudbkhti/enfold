@@ -213,7 +213,7 @@ textarea {
   background-color: rgb(221, 245, 113);
   opacity: 0.8;
 }
-@media (max-width: 768px), (min-width: 480px) {
+@media (max-width: 768px) and (min-width: 480px) {
   .booking__form-txtinput {
     margin-bottom: 20px;
   }
@@ -221,6 +221,6 @@ textarea {
     margin-bottom: 20px;
   }
 }
-@media (max-width: 990px), (min-width: 768px) {
+@media (max-width: 990px) and (min-width: 768px) {
   
 }
