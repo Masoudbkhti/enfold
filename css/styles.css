@@ -249,6 +249,18 @@ textarea {
   }
 }
 @media screen and (min-width: 990px) {
+  .booking-container{
+    display: flex;
+    flex-direction: row;
+    max-width: 1310px;
+    gap: 20px;
+  } 
+  .booking-sentenses{
+    width: 45%;
+  }
+  .booking-form{
+    width: 55%;
+  } 
   .subscribe__form-cointainer{
     display: flex;
     justify-content: center;
